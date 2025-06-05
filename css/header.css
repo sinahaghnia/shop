@@ -1,0 +1,125 @@
+/* navigation */
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+header nav .right-nav{
+    display: flex;
+    text-align: center;
+}
+
+header nav .right-nav a{
+    padding: 0px 20px;
+    color: #4d4d4d;
+    margin-top: 7px;
+    
+}
+.left-nav{
+    margin-left: 10px;
+}
+
+.left-nav > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #000000;
+    border-radius: 7px;
+    padding: 5px 7px;
+
+}
+
+.left-nav .login i {
+    color: #4d4d4d;
+
+}
+
+.left-nav .login a {
+    color: #4d4d4d;
+    margin: 0px 10px;
+
+}
+
+/* section / sliders */
+
+header .slider{
+    position: relative;
+}
+
+header .slider .slides .item{
+    position: relative;
+    display: none;
+}
+
+header .slider .slides .item img{
+    width: 100vw;
+    height:500px;
+}
+
+header .slider .slides .item span{
+    position: absolute;
+    z-index: 1;
+    right: 15%;
+    top: 37%;
+    color: #d79e9e;
+    font-size: 4rem;
+}
+
+header .slider .slides .item .sp2{
+    right:61% ;
+    color: #d79e9e ;
+
+}
+
+
+
+#slide3 span{
+    font-size: 6rem;
+    color: #e05565b6;
+    top: 500px;
+    right: 330px;
+     border-bottom: 2px solid rgb(255, 255, 255);
+     border-radius: 10px; 
+}
+
+#slide2 span{
+    color: #f7f1e3;
+    right: 1050px;
+    top: 50px;
+    font-size: 8rem;
+}
+
+header .slider .slides .active{
+    display: block;
+   
+}
+
+header .slider .buttons{
+    position: absolute;
+    z-index: 1;
+    bottom: 30px;
+    left: 30px;
+    color: rgb(255, 255, 255);
+
+}
+
+header .slider .buttons i{
+    padding-left: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+header .slider .buttons i:hover{
+    color: rgba(255, 255, 255, 0.282);
+
+}
+
+
+
+
+
+

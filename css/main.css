@@ -1,0 +1,15 @@
+*{
+    direction: rtl;
+    box-sizing: border-box;
+    
+}
+ html, body{
+    font-size: 10px;
+    overflow-x: hidden;
+    margin: 0px;
+    overflow-y: hidden;
+ }
+
+a{
+    text-decoration: none;
+}
