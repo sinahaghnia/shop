@@ -1,4 +1,4 @@
-/* navigation */
+                                                    /* navigation */
 
 header nav{
     display: flex;
@@ -44,7 +44,7 @@ header nav .right-nav a{
 
 }
 
-/* section / sliders */
+                                           /* section / sliders */
 
 header .slider{
     position: relative;
@@ -103,13 +103,13 @@ header .slider .buttons{
     z-index: 1;
     bottom: 30px;
     left: 30px;
-    color: rgb(255, 255, 255);
+    color: #ebe9e4;
 
 }
 
 header .slider .buttons i{
-    padding-left: 5px;
-    font-size: 15px;
+    padding-left: 10px;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -119,7 +119,158 @@ header .slider .buttons i:hover{
 }
 
 
+                                    /* start to make main layout */  
+
+main .main-section{
+    margin-top: 30px;  
+}
+
+main .main-section .main-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+
+section .main-div .prouduct1{
+    margin: 50px 25px;
+    box-shadow: 0px 0px 15px 0px rgb(255, 1, 1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px;
+    height: 380px;
+    position: relative;
+}
+
+section .main-div .without-red{
+    box-shadow: 0px 0px 10px 7px rgba(85, 85, 85, 0.664);
+}
 
 
+section .main-div .prouduct1 .img-star .img-headphone1{
+    width: 80%;
+    margin-top: 30px;
+}
 
+section .main-div .prouduct1 .img-star .img-headphone2{
+    width: 70%;
+    margin-top: 30px;
+}
+
+section .main-div .prouduct1 .img-star .img-headphone3{
+    width: 75%;
+    margin-top: 45px;
+
+}
+
+section .main-div .prouduct1 .img-star .img-headphone4{
+    width: 60%;
+    margin-top: 30px;
+}
+
+section .main-div .prouduct1 .img-star .star-icon{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-size: 1.8rem;
+    color: gold;
+}
+
+section .main-div .prouduct1 .img-star .hot-offer{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: #ff4631;
+    padding: 5px 10px;
+    font-size: 2rem;
+    border-radius: 7px;
+    top: 15px ;
+    right: 17px;
+}
+
+.titel-price-icon-a .titel{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    right: 37px;
+    bottom: 70px;
+}
+
+.titel-price-icon-a .price{
+    position: absolute;
+    font-size: 2.2rem;
+    bottom: 20px;
+    right: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.titel-price-icon-a .icons{
+    display: flex;
+    position: absolute;
+    font-size: 2rem;
+    left: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.titel-price-icon-a .icons .icon-a1 {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    background-color: #1e2721;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    padding: 7px;
+     transition: .75s;
+}
+
+.titel-price-icon-a .icons .icon-a1:hover{
+    width: 100px;
+
+}
+
+.titel-price-icon-a .icons .icon-a2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #1e2721;
+    width: 35px;
+    height: 35px;
+    border-radius: 30px;
+    transition: .75s;
+    padding: 8px;
+}
+
+.titel-price-icon-a .icons .icon-a2:hover{
+    width: 100px;
+}
+
+.kiri2,.kiri4{
+    display: none;
+    color: rgb(255, 255, 255);
+    padding-right: 10px;
+    font-size: 2.2rem;
+}
+
+.titel-price-icon-a .icons .icon-a2:hover .kiri4{
+    display: block;
+}
+
+.titel-price-icon-a .icons .icon-a1:hover .kiri2{
+    display: block;
+}
+
+
+.kiri1,.kiri3{
+    color: white;
+}
+
+.kiri3{
+    font-size: 17px;
+}
+
+
+                                      /* start to make hot offer */
 
