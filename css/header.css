@@ -61,12 +61,11 @@ header .slider .slides .item img{
 }
 
 header .slider .slides .item span{
-    position: absolute;
+     position: absolute;
     z-index: 1;
-    right: 15%;
-    top: 37%;
+    margin-bottom: 20px;
     color: #d79e9e;
-    font-size: 4rem;
+    font-size: 4rem; 
 }
 
 header .slider .slides .item .sp2{
@@ -217,7 +216,7 @@ section .main-div .prouduct1 .img-star .hot-offer{
     display: flex;
     align-items: center;
     margin-left: 15px;
-    background-color: #1e2721;
+    background-color: #ff3314;
     width: 35px;
     height: 35px;
     border-radius: 30px;
@@ -235,7 +234,7 @@ section .main-div .prouduct1 .img-star .hot-offer{
     align-items: center;
     text-align: center;
     margin-left: 10px;
-    background-color: #1e2721;
+    background-color: #ff3314;
     width: 35px;
     height: 35px;
     border-radius: 30px;
@@ -272,5 +271,173 @@ section .main-div .prouduct1 .img-star .hot-offer{
 }
 
 
-                                      /* start to make hot offer */
+                                      /* start to make supper offer */
 
+.supper-offer-section{
+
+}
+
+.supper-offer-section .supper-offer-div{
+    display: grid;
+    grid-template-columns: 5fr ;
+    margin-top: 50px;
+
+}
+
+.supper-offer-section .supper-offer-div .right-supper-offer{
+    position: relative;
+    box-shadow: 0px 2px 10px 0px rgb(141, 134, 140);
+    margin: 5px 20px 5px 20px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.right-supper-offer .supper-headphone-img img{
+    position: absolute;
+    width: 20%;
+    right: 20px;
+    top: 0px;
+}
+
+.right-supper-offer .span-supper-offer{
+    position: absolute;
+    font-size: 2.5rem;
+    top: 0px;
+    left: 0px;
+    color: white;
+    background-color: #ff4631;
+    padding: 8px 30px;
+    /* border-bottom-left-radius: 20px; */
+    border-bottom-right-radius: 20px;
+}
+
+.right-supper-offer .information-supper-offer .five-mil-price{
+    position: absolute;
+    color: rgb(60, 60, 60);
+    font-size: 3.5rem;
+    right: 250px;
+    bottom: 20px;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+}
+
+.right-supper-offer .information-supper-offer .six-offer{
+    position: absolute;
+    font-size: 2.5rem;
+    right: 120px;
+    top: 25px;
+    color: white;
+    padding: 5px 10px;
+    background-color: #ff4631;
+    border-radius: 20px;
+
+}
+
+.right-supper-offer .information-supper-offer .supper-titel{
+     position: absolute;
+     font-size: 3rem;
+     top: 100px;
+     left:400px;
+}
+
+hr{
+    position: absolute;
+    width:1000px;
+    top: 155px;
+    left: 100px;
+    height: 2px;
+    background-color: #000000;
+}
+     
+
+.right-supper-offer .information-supper-offer .offer-time{
+     position: absolute;
+     font-size: 2.3rem;
+     left: 600px;
+     bottom: 80px;
+     color: #9b9b9b;
+     
+}
+
+.right-supper-offer .information-supper-offer .time-remaining{
+    position: absolute;
+    font-size: 2.3rem;
+     left: 525px;
+     bottom: 40px;
+     color: #9b9b9b;
+}
+
+
+.left-supper-offer{
+    position: relative;
+    box-shadow: 0px 0px 5px 6px rgb(144, 140, 140);
+    height: 300px;
+    margin: 0px 20px;
+}
+
+.left-supper-offer img{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+                                                  /* start to make footer */
+
+.top-footer {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: #7f8c8d;
+    height: 200px;
+    margin-top: 70px;
+ }
+
+.top-footer .right-information{
+    margin: 10px 30px;
+    
+  }
+
+.top-footer .right-information h1{
+    font-size: 2.3rem;
+    color: white;
+   }
+
+ .top-footer .right-information p{
+   color: white;
+   font-size:1.4rem ;
+   }
+
+   .left-information{
+    position: relative;
+   }
+
+.left-information .media-folowing{
+    position:absolute ;
+    color: white;
+    font-size: 1.7rem;
+    top: 20px;
+    left: 130px;
+}
+
+.left-information .media-icons{
+    position:absolute ;
+    font-size: 4rem;
+    bottom: 40px;
+    left: 70px;
+}
+
+.left-information .media-icons i{
+    margin-left: 40px;
+}
+
+ .down-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e4248;
+    height: 45px;
+ }
+
+  .down-footer .rols-span .rols{
+    color: white;
+    font-size: 1.4rem;
+    padding: 15px 0px;
+  }
