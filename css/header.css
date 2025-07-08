@@ -74,21 +74,10 @@ header .slider .slides .item .sp2{
 
 }
 
-
-
-#slide3 span{
-    font-size: 6rem;
-    color: #e05565b6;
-    top: 500px;
-    right: 330px;
-     border-bottom: 2px solid rgb(255, 255, 255);
-     border-radius: 10px; 
-}
-
 #slide2 span{
     color: #f7f1e3;
     right: 1050px;
-    top: 50px;
+    top: 20px;
     font-size: 8rem;
 }
 
@@ -101,14 +90,14 @@ header .slider .buttons{
     position: absolute;
     z-index: 1;
     bottom: 30px;
-    left: 30px;
+    right: 30px;
     color: #ebe9e4;
 
 }
 
 header .slider .buttons i{
     padding-left: 10px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 
@@ -402,7 +391,7 @@ hr{
 
  .top-footer .right-information p{
    color: white;
-   font-size:1.4rem ;
+   font-size:1.6rem ;
    }
 
    .left-information{
